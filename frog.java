@@ -19,7 +19,7 @@ class frog
         Arrays.fill(dp,2,n,-1);
         dp[0]=0;
         dp[1]=Math.abs(arr[1]-arr[0]);
-
+ //new comment added in the file
        System.out.println("dp array");
         for(int x:dp)
         {
